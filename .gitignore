@@ -1,0 +1,5 @@
+# Local presentation build cache
+/.codex-build/
+
+# Microsoft Office temporary lock files
+~$*

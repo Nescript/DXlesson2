@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(add_demo)
+find_package(catkin REQUIRED COMPONENTS roscpp std_msgs)
+catkin_package()
+include_directories(${catkin_INCLUDE_DIRS})
+add_executable(add_node main.cpp add.cpp)
+target_link_libraries(add_node ${catkin_LIBRARIES})

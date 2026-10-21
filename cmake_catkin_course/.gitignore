@@ -1,0 +1,16 @@
+**/build/
+**/build-auto/
+**/build-minimal/
+**/build-ninja/
+**/devel/
+**/install/
+**/logs/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/*.o
+**/*.d
+**/*.a
+**/*.exe
+**/demo
+**/wheelbot_demo
+**/test_kinematics
